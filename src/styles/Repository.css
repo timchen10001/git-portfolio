@@ -1,0 +1,101 @@
+.repository {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 105vh;
+  text-align: center;
+}
+.repository::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.14;
+}
+
+.repository__url {
+  position: relative;
+  text-decoration: none;
+}
+.repository__url img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.repository__name {
+  font-size: 5vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.repository__description {
+  font-size: 2vw;
+  max-width: 75vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mask-map-cover {
+  background-color: rgb(194, 200, 204);
+}
+.mask-map-cover::before {
+  background: var(--mask-map-cover) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-size: cover;
+}
+
+.react-layout-demo-cover {
+  /* position: relative; */
+  background-color: #ffffff;
+}
+.react-layout-demo-cover::before {
+  background: var(--google-search-cover) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.react-layout-demo2-cover {
+  /* position: relative; */
+  background-color: #dbdbd4;
+}
+.react-layout-demo2-cover::before {
+  background: var(--whatsapp-cover) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.WebClient-cover {
+  /* position: relative; */
+  background-color: #5c9fdf83;
+}
+.WebClient-cover::before {
+  background: var(--anotherbush-client-cover) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.WebServer-cover {
+  background-color: #6993d6dc;
+}
+.WebServer-cover::before {
+  background: var(--anotherbush-server-cover) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.git-portfolio-cover {
+  background: #21272C;
+  color: white;
+  /* height: 130vh; */
+} .git-portfolio-cover  a img {
+  color: white;
+}
