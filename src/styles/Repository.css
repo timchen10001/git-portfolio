@@ -91,3 +91,11 @@
   background-size: cover;
   background-position: center center;
 }
+
+.git-portfolio-cover {
+  background: #21272C;
+  color: white;
+  /* height: 130vh; */
+} .git-portfolio-cover  a img {
+  color: white;
+}

@@ -5,6 +5,7 @@ export const selectRepository = (data: GithubResponse[]) => {
     "mask-map": true,
     "react-layout-demo": true,
     "react-layout-demo2": true,
+    "git-portfolio": true,
     WebClient: true,
     WebServer: true,
   } as any;
