@@ -2,10 +2,11 @@ import "./styles/App.css";
 import { Repository } from "./components/Repository";
 import { useGithubRepos } from "./hooks/useGithubRepos";
 import { Heading } from "./components/Heading";
+import { Footer } from "./components/Footer";
 
 function App() {
   const repos = useGithubRepos();
-  console.log(repos);
+  // console.log(repos);
   return (
     <div className="App">
       <Heading />
@@ -17,6 +18,7 @@ function App() {
           )}
         </div>
       ))}
+      <Footer />
     </div>
   );
 }

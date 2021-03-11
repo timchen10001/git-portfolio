@@ -1,0 +1,20 @@
+.icon__group {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  max-width: 250px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.cakeresume__icon img {
+  image-rendering: optimizeSpeed;
+  max-width: 170px;
+  max-height: 170px;
+}
+
+.github__icon img {
+  image-rendering: optimizeSpeed;
+  max-width: 50px;
+  max-height: 50px;
+}

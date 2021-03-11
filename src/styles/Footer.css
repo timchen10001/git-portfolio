@@ -1,4 +1,4 @@
-.heading {
+.footer {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -6,17 +6,17 @@
   height: 100vh;
   align-items: center;
 }
-.heading::before {
-  background: var(--heading-background) no-repeat;
+.footer::before {
+  background: var(--footer-background) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
-.heading__title {
+.footer__title {
   position: relative;
   font-family: fantasy;
-  font-size: 2.5vw;
-  top: 35%;
+  font-size: 3vw;
+  top: 40%;
 }
