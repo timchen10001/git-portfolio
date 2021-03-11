@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/git-portfolio/static/css/main.83a10711.chunk.css",
-    "main.js": "/git-portfolio/static/js/main.59faaf2e.chunk.js",
-    "main.js.map": "/git-portfolio/static/js/main.59faaf2e.chunk.js.map",
+    "main.css": "/git-portfolio/static/css/main.04e5c868.chunk.css",
+    "main.js": "/git-portfolio/static/js/main.2a8662b2.chunk.js",
+    "main.js.map": "/git-portfolio/static/js/main.2a8662b2.chunk.js.map",
     "runtime-main.js": "/git-portfolio/static/js/runtime-main.d5b0b3c6.js",
     "runtime-main.js.map": "/git-portfolio/static/js/runtime-main.d5b0b3c6.js.map",
     "static/js/2.3b184e3a.chunk.js": "/git-portfolio/static/js/2.3b184e3a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.b455ac28.chunk.js": "/git-portfolio/static/js/3.b455ac28.chunk.js",
     "static/js/3.b455ac28.chunk.js.map": "/git-portfolio/static/js/3.b455ac28.chunk.js.map",
     "index.html": "/git-portfolio/index.html",
-    "static/css/main.83a10711.chunk.css.map": "/git-portfolio/static/css/main.83a10711.chunk.css.map",
+    "static/css/main.04e5c868.chunk.css.map": "/git-portfolio/static/css/main.04e5c868.chunk.css.map",
     "static/js/2.3b184e3a.chunk.js.LICENSE.txt": "/git-portfolio/static/js/2.3b184e3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d5b0b3c6.js",
     "static/js/2.3b184e3a.chunk.js",
-    "static/css/main.83a10711.chunk.css",
-    "static/js/main.59faaf2e.chunk.js"
+    "static/css/main.04e5c868.chunk.css",
+    "static/js/main.2a8662b2.chunk.js"
   ]
 }
