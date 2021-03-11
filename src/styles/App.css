@@ -11,6 +11,8 @@
   --anotherbush-server-cover: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472882/material/giphy_4_-min_wzvkgd.gif");
   --heading-background: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472477/material/z9uE2Q-min_qnfbfi.jpg");
   --footer-background: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472476/material/acnEbx-min_sg2gzt.jpg");
+
+  --repository-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .parallax {

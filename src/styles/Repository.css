@@ -17,30 +17,53 @@
   height: 100%;
   opacity: 0.14;
 }
+.repository__url {
+  text-decoration: none;
+  font-size: 2.3em;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-family: var(--repository-font-family);
+}
+
+.repository__title2 {
+  font-size: 2.5rem;
+  font-family: var(--repository-font-family);
+}
+
+.repository__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5vh;
+  margin-top: 0.8em;
+}
 
 .url__group {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 10vw;
-  max-width: 250px;
+  justify-content: space-around;
+  width: 38vw;
+  min-width: 300px;
+  /* max-width: 250px; */
 }
 img {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 40px;
+  max-height: 40px;
+  margin: 15px;
 }
 
 .repository__name {
-  font-size: 5vw;
+  font-size: 4.5vw;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .repository__description {
-  font-size: 1.8vw;
+  font-size: 2vw;
   max-width: 75vw;
   text-align: left;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: var(--repository-font-family);
 }
 
 .mask-map-cover {
@@ -104,11 +127,4 @@ img {
 }
 .git-portfolio-cover a img {
   color: white;
-}
-
-.repository__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 5vh;
 }
