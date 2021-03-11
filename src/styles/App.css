@@ -1,21 +1,22 @@
 :root {
-  --mask-map: url("https://upload.cc/i1/2021/03/10/zMQthY.png");
-  --mask-map-cover: url("https://media.giphy.com/media/SIKbtE3OW7Hhp3NX4U/giphy.gif");
-  --google-search: url("https://upload.cc/i1/2021/03/10/40e6T3.png");
-  --google-search-cover: url("https://media.giphy.com/media/ekf8417Z32J7yIy83K/giphy.gif");
-  --whatsapp: url("https://upload.cc/i1/2021/03/10/FOnaop.png");
-  --whatsapp-cover: url("https://media.giphy.com/media/HFtCGJ0DdekNywnuku/giphy.gif");
-  --anotherbush-client: url("https://upload.cc/i1/2021/03/11/EYZn1U.png");
-  --anotherbush-client-cover: url("https://media.giphy.com/media/p99Unv3ayooVkU0Fyg/giphy.gif");
-  --anotherbush-server: url("https://upload.cc/i1/2021/03/10/woQyls.png");
-  --anotherbush-server-cover: url("https://media.giphy.com/media/earBQbsIEGjiwMncz6/giphy.gif");
-  --heading-background: url("https://upload.cc/i1/2021/03/11/z9uE2Q.jpg");
-  --footer-background: url("https://upload.cc/i1/2021/03/11/acnEbx.jpg");
+  --mask-map: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472493/material/zMQthY-min_uwdl0s.png");
+  --mask-map-cover: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472884/material/giphy-min_zxrkzp.gif");
+  --google-search: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472491/material/40e6T3-min_r9iy9c.png");
+  --google-search-cover: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472881/material/giphy_1_-min_xbo4er.gif");
+  --whatsapp: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472492/material/FOnaop-min_sbahff.png");
+  --whatsapp-cover: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472881/material/giphy_2_-min_ybnrdp.gif");
+  --anotherbush-client: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472491/material/EYZn1U-min_jpgmnx.png");
+  --anotherbush-client-cover: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472883/material/giphy_3_-min_kq6sio.gif");
+  --anotherbush-server: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472492/material/woQyls-min_kgsnlh.png");
+  --anotherbush-server-cover: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472882/material/giphy_4_-min_wzvkgd.gif");
+  --heading-background: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472477/material/z9uE2Q-min_qnfbfi.jpg");
+  --footer-background: url("https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472476/material/acnEbx-min_sg2gzt.jpg");
 }
 
 .parallax {
   height: 140vh;
-} .parallax::before {
+}
+.parallax::before {
   content: " ";
   display: block;
   position: absolute;
@@ -27,7 +28,8 @@
 
 .mask-map {
   position: relative;
-} .mask-map::before {
+}
+.mask-map::before {
   background: var(--mask-map) no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -36,7 +38,8 @@
 
 .react-layout-demo {
   position: relative;
-} .react-layout-demo::before {
+}
+.react-layout-demo::before {
   background: var(--google-search) no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -45,7 +48,8 @@
 
 .react-layout-demo2 {
   position: relative;
-} .react-layout-demo2::before {
+}
+.react-layout-demo2::before {
   background: var(--whatsapp) no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -54,7 +58,8 @@
 
 .WebClient {
   position: relative;
-} .WebClient::before {
+}
+.WebClient::before {
   background: var(--anotherbush-client) no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -63,7 +68,8 @@
 
 .WebServer {
   position: relative;
-} .WebServer::before {
+}
+.WebServer::before {
   background: var(--anotherbush-server) no-repeat;
   background-attachment: fixed;
   background-size: cover;
