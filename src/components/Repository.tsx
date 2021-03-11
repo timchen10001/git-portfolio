@@ -16,7 +16,7 @@ export const Repository: React.FC<RepositoryProps> = ({ index, repo }) => {
       <h1 className="repository__name" key={`name-${index}`}>
         {repo.name}
       </h1>
-      <div className="url__group">
+      <div className="url__group" key={`url-group-${index}`}>
         <a
           className="repository__url"
           href={`${repo.html_url}`}

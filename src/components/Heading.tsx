@@ -4,7 +4,7 @@ import { IconGroup } from "./IconGroup";
 
 interface HeadingProps {}
 
-export const Heading: React.FC<HeadingProps> = ({}) => {
+export const Heading: React.FC<HeadingProps> = () => {
   return (
     <div className="parallax heading">
       <h1 className="heading__title">
