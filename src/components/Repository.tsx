@@ -9,18 +9,24 @@ interface RepositoryProps {
 
 export const Repository: React.FC<RepositoryProps> = ({ index, repo }) => {
   const descriptions = repo.description?.split("✔️ ");
+  const title = descriptions?.[0];
   return (
     <ul className={`repository ${repo.name}-cover`}>
       <h1 className="repository__name" key={`name-${index}`}>
         {repo.name}
       </h1>
       <p className="repository__description" key={`description-${index}`}>
-        {descriptions?.map((des, idx) => (
-          <>
-            {idx !== 0 ? `✔️ ${des}` : des}
-            <br />
-          </>
-        ))}
+        {title}
+        <span className="repository__item">
+          {descriptions?.map((des, idx) =>
+            idx === 0 ? null : (
+              <>
+                {`✔️ ${des}`}
+                <br />
+              </>
+            )
+          )}
+        </span>
       </p>
       <a
         className="repository__url"

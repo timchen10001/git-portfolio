@@ -26,14 +26,14 @@
   display: flex;
   align-items: center;
   width: 18%;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
-  top: 30%;
+  top: 32%;
 }
 
 .cakeresume__icon img {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 180px;
+  max-height: 180px;
 }
 
 .github__icon img {
