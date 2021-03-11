@@ -28,16 +28,30 @@ export const Repository: React.FC<RepositoryProps> = ({ index, repo }) => {
           )}
         </span>
       </p>
-      <a
-        className="repository__url"
-        href={`${repo.html_url}`}
-        key={`url-${index}`}
-      >
-        <img
-          src="https://image.flaticon.com/icons/png/512/25/25231.png"
-          alt="github"
-        />
-      </a>
+      <div className="url__group">
+        <a
+          className="repository__url"
+          href={`${repo.html_url}`}
+          key={`repo-url-${index}`}
+        >
+          <img
+            src="https://image.flaticon.com/icons/png/512/25/25231.png"
+            alt={`${repo.name}-github`}
+            title={`${repo.html_url}`}
+          />
+        </a>
+        <a
+          className="homepage__url"
+          href={`${repo.homepage}`}
+          key={`homepage-url-${index}`}
+        >
+          <img
+            src="https://upload.cc/i1/2021/03/11/kCU3tw.png"
+            alt={`${repo.name}-homepage`}
+            title={`${repo.homepage}`}
+          />
+        </a>
+      </div>
     </ul>
   );
 };

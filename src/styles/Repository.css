@@ -18,29 +18,33 @@
   opacity: 0.14;
 }
 
-.repository__url {
+.url__group {
   position: relative;
-  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10vw;
+  max-width: 250px;
 }
-.repository__url img {
+img {
   max-width: 50px;
   max-height: 50px;
 }
 
 .repository__name {
   font-size: 5vw;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .repository__description {
   font-size: 1.8vw;
   max-width: 75vw;
   text-align: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .mask-map-cover {
-  background-color: #ECECEC;
+  background-color: #ececec;
 }
 .mask-map-cover::before {
   background: var(--mask-map-cover) no-repeat;
@@ -74,7 +78,7 @@
 
 .WebClient-cover {
   /* position: relative; */
-  background-color: #E5E6EA;
+  background-color: #e5e6ea;
 }
 .WebClient-cover::before {
   background: var(--anotherbush-client-cover) no-repeat;
@@ -84,7 +88,7 @@
 }
 
 .WebServer-cover {
-  background-color: #E5E6EA;
+  background-color: #e5e6ea;
 }
 .WebServer-cover::before {
   background: var(--anotherbush-server-cover) no-repeat;
@@ -94,10 +98,11 @@
 }
 
 .git-portfolio-cover {
-  background: #21272C;
+  background: #21272c;
   color: white;
   /* height: 130vh; */
-} .git-portfolio-cover  a img {
+}
+.git-portfolio-cover a img {
   color: white;
 }
 

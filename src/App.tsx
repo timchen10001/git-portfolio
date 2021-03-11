@@ -6,7 +6,7 @@ import { Footer } from "./components/Footer";
 
 function App() {
   const repos = useGithubRepos();
-  // console.log(repos);
+  console.log(repos);
   return (
     <div className="App">
       <Heading />
