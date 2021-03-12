@@ -44,9 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 38vw;
   min-width: 510px;
-  /* max-width: 250px; */
 }
 img {
   max-width: 40px;
